@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Volunteer Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/recycle-icon.svg" alt="Recycle Logo">
+            <span>Eco-Actions</span>
+        </div>
+        <nav>
+            <a href="#">Collection Points</a>
+            <a href="#">Eco-Tips</a>
+            <a href="#" class="btn-header">Become a Volunteer</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Let's Make Our City Cleaner Together</h1>
+            <a href="#" class="btn-hero">I want to Join the Clean up Day</a>
+        </section>
+        <section class="grid-section">
+            <article class="card card-blue">
+                <div class="card-icon">🗑️</div>
+                <h3>Collection Point 1</h3>
+                <p>Schedule: Mon-Fri 09:00-18:00</p>
+                <p>Accepted: Polymer, Glass, Paper</p>
+                <p class="address">Address: Abay St,15</p>
+            </article>
+
+            <article class="card card-cyan">
+                <div class="card-icon">🗑️</div>
+                <h3>Collection Point 2</h3>
+                <p>Schedule: Mon-Fri 09:00-18:00</p>
+                <p>Accepted: Plastic, Metal</p>
+                <p class="address">Address: Satpayev St,22</p>
+            </article>
+
+            <article class="card card-indigo">
+                <div class="card-icon">🗑️</div>
+                <h3>Collection Point 3</h3>
+                <p>Schedule: Mon-Fri 09:00-18:00</p>
+                <p>Accepted: Glass, Batteries</p>
+                <p class="address">Address: Al-Farabi St,77</p>
+            </article>
+        </section>
+        <section class="form-section">
+            <h2>Join Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="district">District:</label>
+                <input type="text" id="district" name="district" required>
+
+                <label for="competencies">Competencies:</label>
+                <select id="competencies" name="competencies">
+                    <option value="transport">Transport</option>
+                    <option value="resources">Resources</option>
+                    <option value="manual">Manual Labor</option>
+                </select>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Eco Funds</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-stats">
+            <p>1,250 kg <br> Recycled Waste</p>
+            <p>500+ <br> Active Volunteers</p>
+        </div>
+        <div class="theme-switcher">
+            <span class="circle">🌗</span>
+        </div>
+    </footer>
+</body>
+</html>
